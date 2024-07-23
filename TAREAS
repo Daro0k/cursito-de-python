@@ -1,0 +1,69 @@
+
+-------------------------------------------------------
+#Añadir a la lista_1 el entero 4567 y despues el string "UNAHUR"
+lista_1 = [4567,"UNAHUR"]
+
+print(lista_1)
+#Añadir a la lista_2 el string "EDUCACION" y despues el entero 789
+
+lista_2 = ["EDUCACION", 789]
+
+print(lista_2)
+#Crear una lista_3 con todos los elementos de la lista_1 MENOS el último
+lista_1.pop(1)
+
+print(lista_1)
+
+lista_3 = [lista_1]
+print(lista_3)
+#Crear una lista_4 con todos los elementos de la lista_2 MENOS el primero y último
+
+print(lista_2[1:1])
+
+lista_4 = [lista_2[1:1]]
+
+
+
+#Crear una lista_5 con todos los elementos de la lista_3 y de la lista_4
+
+lista_5 = [lista_3,lista_4]
+
+print(lista_5)
+#                              AHORA CON TUPLAS
+#Crear una variable llamada tupla con más de 15 items y printear lo siguiente:
+
+# El ultimo item de la tupla creada, el numero de items de la misma, la posicion donde se encuentra algun item que haya dentro, una lista con los ultimos cuatro items de la tupla, un item que haya en la posicion 8, el numero de veces que se repite algún item dentro de la misma.
+
+TUPLA=(42,53,64,78,42,66,90,73,74,78,12,42,76,54,65)
+print(TUPLA[14])
+
+print(len(TUPLA))
+
+print(TUPLA.index(66))
+
+print(TUPLA[11:15])
+
+print(TUPLA.index(TUPLA[8]))
+
+print()
+---------------------------------------------------------------
+print("INICIO...")
+dato_sistema = input("ENTRAR?:")
+if dato_sistema == "si":
+  print("Bienvenido a el sistema")
+
+
+dato_sistema2 = input("SALUDO?:")
+
+if dato_sistema2 == "si":
+  print("hola, como estas?")
+dato_sistema3 = input("SALIR?:")
+
+if dato_sistema3 == "si":
+  print("saliendo de el sistema")
+
+elif dato_sistema2 == "no":
+  print(dato_sistema3)
+
+else:
+  print("No se reconoce este comando")
