@@ -1,0 +1,34 @@
+# SETS
+# Es una variable grupo:
+#Añadir a las siguientes personas: Jose, Maria, Gerardo, Fabian
+#Eliminar a las personas: Fernando, Federico, Francisco
+
+grupo = {"Fernando", "Federico", "Francisco", "Ricardo"}
+
+grupo.update({"jose","maria","gerardo","fabian"})
+print(grupo)
+
+grupo.discard("Fernando")
+grupo.discard("Federico")
+grupo.discard("Francisco")
+
+print(grupo)
+
+
+# DICCIONARIOS
+
+# Añadir al diccionario las claves perro, gato y tucan con sus valores "Tobi", "Michi" y "Diego"
+
+# Modificar la clave elefante por delfin
+
+animalitos = {"elefante": "jose", "perro" : "tobi", "gato": "michi", "tucan": "diego"}
+
+print(animalitos["elefante"])
+print(animalitos["perro"])
+print(animalitos["gato"])
+print(animalitos["tucan"])
+
+animalitos.pop("elefante")
+
+animalitos["delfin"]= "jose" 
+print(animalitos)
