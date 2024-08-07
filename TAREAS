@@ -1,5 +1,5 @@
 
--------------------------------------------------------
+# TAREA 25 DE JUNIO 
 #Añadir a la lista_1 el entero 4567 y despues el string "UNAHUR"
 lista_1 = [4567,"UNAHUR"]
 
@@ -46,7 +46,8 @@ print(TUPLA[11:15])
 print(TUPLA.index(TUPLA[8]))
 
 print()
----------------------------------------------------------------
+______________________________________________________________
+#TAREA 16 DE JULIO 
 print("INICIO...")
 dato_sistema = input("ENTRAR?:")
 if dato_sistema == "si":
@@ -69,7 +70,8 @@ else:
   print("No se reconoce este comando")
 
 ______________________________________________________________
-#TAREA 
+#TAREA 30 DE JULIO 
+
 # SETS
 # Es una variable grupo:
 #Añadir a las siguientes personas: Jose, Maria, Gerardo, Fabian
