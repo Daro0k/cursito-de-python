@@ -47,7 +47,38 @@ print(TUPLA.index(TUPLA[8]))
 
 print()
 ______________________________________________________________
-#TAREA 16 DE JULIO 
+#CLASE 16 de Julio, analizar el código y explicar que hace cada linea, luego reemplazarlo por otra condición
+#WHILE
+n = 10                                      #numero variable que marca donde va a comenzar 
+while n<10:                                 #  se coloca la sentencia WHIlE si la variable es menor que en este caso el numero 10
+    if (n%2)==0:                            # y si el valor de la variable es igual a 0 al dividirlo por 2 
+        print(n,"Es un numero par")         # devolvera que es un numero par en caso de que el resultado de 0 al dividirlo por 2
+    else:                                   
+        print(n,"es un numero impar")        # en caso contrario nos devuelve numero impar 
+    n+=1                                     # especifica que se cuente de 1 en 1 
+    
+    
+n = 0                                  
+while n<5:                           
+    if (n%2)==0:                           
+        print(n,"Es un numero par")        
+    else:                                   
+        print(n,"es un numero impar")     
+    n+=1                                  
+
+
+n = -5                               
+while n<4:                           
+    if (n%2)==0:                           
+        print(n,"Es un numero par")        
+    else:                                   
+        print(n,"es un numero impar")     
+    n+=1                                  
+------------------------------------
+#  IF ELSE ELIF
+# Construir un algoritmo con lo viste en clase bajo el mismo diagrama de flujo de la imagen que está en la carpeta assets del repo
+
+
 print("INICIO...")
 dato_sistema = input("ENTRAR?:")
 if dato_sistema == "si":
