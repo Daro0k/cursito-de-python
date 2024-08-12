@@ -1,5 +1,5 @@
 
-# TAREA 25 DE JUNIO 
+#______________ TAREA 25 DE JUNIO 
 #Añadir a la lista_1 el entero 4567 y despues el string "UNAHUR"
 lista_1 = [4567,"UNAHUR"]
 
@@ -47,8 +47,10 @@ print(TUPLA.index(TUPLA[8]))
 
 print()
 ______________________________________________________________
-#CLASE 16 de Julio, analizar el código y explicar que hace cada linea, luego reemplazarlo por otra condición
+#__________CLASE 16 de Julio, analizar el código y explicar que hace cada linea, luego reemplazarlo por otra condición
 #WHILE
+
+
 n = 10                                      #numero variable que marca donde va a comenzar 
 while n<10:                                 #  se coloca la sentencia WHIlE si la variable es menor que en este caso el numero 10
     if (n%2)==0:                            # y si el valor de la variable es igual a 0 al dividirlo por 2 
@@ -101,7 +103,7 @@ else:
   print("No se reconoce este comando")
 
 ______________________________________________________________
-#TAREA 30 DE JULIO 
+#__________TAREA 30 DE JULIO 
 
 # SETS
 # Es una variable grupo:
