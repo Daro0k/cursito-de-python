@@ -1,0 +1,78 @@
+#_____________________________________________________Ejercicio 2 : EXEPCIONES
+
+#Dados dos conjuntos, A y B, escribe un programa en Python que imprima los
+#elementos que se encuentran en A o en B, o en ambos.
+
+"""A = {1,2,3,4}
+
+B = {5,6,7,8}
+
+print(A|B)
+"""
+#Dados dos conjuntos, A y B, escribe un programa en Python que imprima los
+#elementos que se encuentran en A y en B
+
+
+# Elementos en A y en B
+"""interseccion = A & B
+print("Elementos en A y en B:")
+"""
+
+#_________________________________________________
+#______Escribe un programa que intente dividir dos números. Si el segundo número es cero,
+#captura la excepción ZeroDivisionError y muestra un mensaje de error al usuario
+
+"""try:
+    programa1 = 10 / 0
+    print(programa1)
+except ZeroDivisionError:
+    print(f"Ha ocurrido un error, no se puede dividir por cero")"""
+    
+#____________Escribe un programa que intente sumar un número y una cadena. Si se produce un error
+#de tipo, captura la excepción TypeError y muestra un mensaje de error al usuario
+
+"""try:
+    programa2 = 10 / ("4")
+except TypeError:
+    print("Ha ocurrido un error tipo: no se puede sumar un numero con una cadena")"""
+
+#___________Escribe un programa que intente acceder a una clave que no existe en un
+#diccionario. Si se produce una excepción KeyError, captura la excepción y muestra
+
+"""try:
+    programa3 = {"Nombre": "pepe", "Edad" : "25"}
+    print(programa3["Apellido"])
+except:
+    print("Ha ocurrido unn error : la clave apellido no existe en el diccionario")
+"""
+#Escribe un programa que intente abrir un archivo que no existe.
+#si se produce una exepcion FileNotFoundError, captura
+#la exepcion y muestra un mensaje de error a el usuario. 
+#sin embargo tambien intenta crear el archivo si no existe 
+
+"""try:
+    programa4 = open("Archivo1_fake.txt","r")
+    print(programa4.read())
+except FileNotFoundError:
+    print("Ha ocurrido un error el archivo no existe")
+    
+with open("archivo_Fake.txt", "w") as archivo:
+        archivo.write("Este es un archivo recién creado.")
+print("El archivo ha sido creado.")"""
+
+#Escribe un programa que intente dividir dos números. Si el segundo número es cero,
+#captura la excepción ZeroDivisionError. Si el primer número es un número no válido,
+#captura la excepción ValueError. En cualquier caso, muestra un mensaje de error al usuario.
+
+
+
+"""try:
+    programa5 = float(input("Introduce un numero para empezar la division:"))      #creo dos variables con float e input asi el usuario puede colocar cualquier numero
+    programa6 = float(input("Introduce otro numero para empezar la division"))
+
+    division = programa5 / programa6                                               
+    print(division)    
+except ZeroDivisionError:
+    print("Ha ocurrido un error , no se puede dividir por cero:")
+except ValueError:
+    print("ha habido un error introduce un numero")"""
